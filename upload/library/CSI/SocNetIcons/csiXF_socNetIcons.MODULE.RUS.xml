@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon addon_id="csiXF_socNetIcons" title="(CSI/XF/MODULE) Иконки социальных сетей" version_string="1.0.0" version_id="1" url="http://cyberspace.industries/" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
+  <admin_navigation/>
+  <admin_permissions/>
+  <admin_style_properties/>
+  <admin_templates/>
+  <admin_template_modifications/>
+  <code_events/>
+  <code_event_listeners/>
+  <cron/>
+  <email_templates/>
+  <email_template_modifications/>
+  <optiongroups>
+    <group group_id="csiXF_socNetIcons" display_order="99999999" debug_only="0"/>
+    <option option_id="csiXF_socNetIcons_fb" edit_format="textbox" data_type="string" can_backup="1">
+      <default_value></default_value>
+      <edit_format_params></edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="csiXF_socNetIcons" display_order="1"/>
+    </option>
+    <option option_id="csiXF_socNetIcons_github" edit_format="textbox" data_type="string" can_backup="1">
+      <default_value></default_value>
+      <edit_format_params></edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="csiXF_socNetIcons" display_order="2"/>
+    </option>
+    <option option_id="csiXF_socNetIcons_gplus" edit_format="textbox" data_type="string" can_backup="1">
+      <default_value></default_value>
+      <edit_format_params></edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="csiXF_socNetIcons" display_order="3"/>
+    </option>
+    <option option_id="csiXF_socNetIcons_iconSize" edit_format="select" data_type="string" can_backup="1">
+      <default_value>fa-3x</default_value>
+      <edit_format_params>fa-lg={xen:phrase csiXF_socNetIcons_iconSize_falg}
+fa-2x={xen:phrase csiXF_socNetIcons_iconSize_fa2x}
+fa-3x={xen:phrase csiXF_socNetIcons_iconSize_fa3x}
+fa-4x={xen:phrase csiXF_socNetIcons_iconSize_fa4x}
+fa-5x={xen:phrase csiXF_socNetIcons_iconSize_fa5x}</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="csiXF_socNetIcons" display_order="100"/>
+    </option>
+    <option option_id="csiXF_socNetIcons_tw" edit_format="textbox" data_type="string" can_backup="1">
+      <default_value></default_value>
+      <edit_format_params></edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="csiXF_socNetIcons" display_order="4"/>
+    </option>
+    <option option_id="csiXF_socNetIcons_vk" edit_format="textbox" data_type="string" can_backup="1">
+      <default_value></default_value>
+      <edit_format_params></edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="csiXF_socNetIcons" display_order="5"/>
+    </option>
+    <option option_id="csiXF_socNetIcons_youtube" edit_format="textbox" data_type="string" can_backup="1">
+      <default_value></default_value>
+      <edit_format_params></edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="csiXF_socNetIcons" display_order="6"/>
+    </option>
+  </optiongroups>
+  <permissions>
+    <permission_groups/>
+    <permissions/>
+    <interface_groups/>
+  </permissions>
+  <phrases>
+    <phrase title="csiXF_socNetIcons_blockTitle" version_id="1" version_string="1.0.0"><![CDATA[Социальные сети]]></phrase>
+    <phrase title="csiXF_socNetIcons_fb" version_id="1" version_string="1.0.0"><![CDATA[Facebook]]></phrase>
+    <phrase title="csiXF_socNetIcons_github" version_id="1" version_string="1.0.0"><![CDATA[GitHub]]></phrase>
+    <phrase title="csiXF_socNetIcons_gplus" version_id="1" version_string="1.0.0"><![CDATA[Google Plus]]></phrase>
+    <phrase title="csiXF_socNetIcons_iconSize_fa2x" version_id="1" version_string="1.0.0"><![CDATA[2X]]></phrase>
+    <phrase title="csiXF_socNetIcons_iconSize_fa3x" version_id="1" version_string="1.0.0"><![CDATA[3X]]></phrase>
+    <phrase title="csiXF_socNetIcons_iconSize_fa4x" version_id="1" version_string="1.0.0"><![CDATA[4X]]></phrase>
+    <phrase title="csiXF_socNetIcons_iconSize_fa5x" version_id="1" version_string="1.0.0"><![CDATA[5X]]></phrase>
+    <phrase title="csiXF_socNetIcons_iconSize_falg" version_id="1" version_string="1.0.0"><![CDATA[LG]]></phrase>
+    <phrase title="csiXF_socNetIcons_tw" version_id="1" version_string="1.0.0"><![CDATA[Twitter]]></phrase>
+    <phrase title="csiXF_socNetIcons_vk" version_id="1" version_string="1.0.0"><![CDATA[ВКонтакте]]></phrase>
+    <phrase title="csiXF_socNetIcons_youtube" version_id="1" version_string="1.0.0"><![CDATA[YouTube]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_fb" version_id="1" version_string="1.0.0"><![CDATA[Facebook]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_fb_explain" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_github" version_id="1" version_string="1.0.0"><![CDATA[GitHub]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_github_explain" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_gplus" version_id="1" version_string="1.0.0"><![CDATA[Google Plus]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_gplus_explain" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_iconSize" version_id="1" version_string="1.0.0"><![CDATA[Размер иконок]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_iconSize_explain" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_tw" version_id="1" version_string="1.0.0"><![CDATA[Twitter]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_tw_explain" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_vk" version_id="1" version_string="1.0.0"><![CDATA[VK]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_vk_explain" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_youtube" version_id="1" version_string="1.0.0"><![CDATA[YouTube]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_youtube_explain" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+    <phrase title="option_group_csiXF_socNetIcons" version_id="1" version_string="1.0.0"><![CDATA[(CSI/XF/MODULE) Иконки социальных сетей]]></phrase>
+    <phrase title="option_group_csiXF_socNetIcons_description" version_id="1" version_string="1.0.0"><![CDATA[Настройки иконок социальных сетей.]]></phrase>
+  </phrases>
+  <route_prefixes/>
+  <style_properties/>
+  <templates>
+    <template title="csiXF_socNetIcons" version_id="1" version_string="1.0.0"><![CDATA[<xen:require css="csiXF_socNetIcons.css" />
+
+<div class="section">
+  <div class="secondaryContent statsList">
+    <h3>{xen:phrase csiXF_socNetIcons_blockTitle}</h3>
+    <div class="pairsJustified">
+      <ul class="csiXF_socNetIcons">
+        <xen:if is="{$xenOptions.csiXF_socNetIcons_fb}">
+          <li class="fb">
+            <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_fb}" href="{$xenOptions.csiXF_socNetIcons_fb}" target="_blank">
+              <i class="fa fa-facebook {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
+            </a>
+          </li>
+        </xen:if>
+        <xen:if is="{$xenOptions.csiXF_socNetIcons_github}">
+          <li class="github">
+            <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_github}" href="{$xenOptions.csiXF_socNetIcons_github}" target="_blank">
+              <i class="fa fa-github-alt {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
+            </a>
+          </li>
+        </xen:if>
+        <xen:if is="{$xenOptions.csiXF_socNetIcons_gplus}">
+          <li class="gplus">
+            <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_gplus}" href="{$xenOptions.csiXF_socNetIcons_gplus}" target="_blank">
+              <i class="fa fa-google-plus {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
+            </a>
+          </li>
+        </xen:if>
+        <xen:if is="{$xenOptions.csiXF_socNetIcons_tw}">
+          <li class="tw">
+            <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_tw}" href="{$xenOptions.csiXF_socNetIcons_tw}" target="_blank">
+              <i class="fa fa-twitter {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
+            </a>
+          </li>
+        </xen:if>
+        <xen:if is="{$xenOptions.csiXF_socNetIcons_vk}">
+          <li class="vk">
+            <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_vk}" href="{$xenOptions.csiXF_socNetIcons_vk}" target="_blank">
+              <i class="fa fa-vk {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
+            </a>
+          </li>
+        </xen:if>
+        <xen:if is="{$xenOptions.csiXF_socNetIcons_youtube}">
+          <li class="youtube">
+            <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_youtube}" href="{$xenOptions.csiXF_socNetIcons_youtube}" target="_blank">
+              <i class="fa fa-youtube {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
+            </a>
+          </li>
+        </xen:if>
+      </ul>
+    </div>
+  </div>
+</div>]]></template>
+    <template title="csiXF_socNetIcons.css" version_id="1" version_string="1.0.0"><![CDATA[.csiXF_socNetIcons {
+  overflow: hidden;
+}
+
+.csiXF_socNetIcons li {
+  float: left;
+  margin: 0 5px 10px;
+}
+
+.csiXF_socNetIcons li.fb a {
+  background-color: #3b5998;
+}
+
+.csiXF_socNetIcons li.github a {
+  background-color: #444;
+}
+
+.csiXF_socNetIcons li.gplus a {
+  background-color: #dd4b39;
+}
+
+.csiXF_socNetIcons li.tw a {
+  background-color: #55acee;
+}
+
+.csiXF_socNetIcons li.vk a {
+  background-color: #587ea3;
+}
+
+.csiXF_socNetIcons li.youtube a {
+  background-color: #dc2725;
+}
+
+.csiXF_socNetIcons li a {
+  display: block;
+  padding: 5px;
+  color: #fff;
+  border-radius: 4px;
+}]]></template>
+  </templates>
+  <public_template_modifications>
+    <modification template="PAGE_CONTAINER" modification_key="csiXF_socNetIcons" description="" execution_order="10" enabled="1" action="str_replace">
+      <find><![CDATA[<xen:include template="ad_sidebar_bottom" />]]></find>
+      <replace><![CDATA[<xen:include template="csiXF_socNetIcons" />
+$0]]></replace>
+    </modification>
+  </public_template_modifications>
+  <bb_code_media_sites/>
+  <bb_codes/>
+</addon>
