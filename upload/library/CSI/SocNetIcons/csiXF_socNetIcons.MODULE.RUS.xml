@@ -100,54 +100,52 @@ fa-5x={xen:phrase csiXF_socNetIcons_iconSize_fa5x}</edit_format_params>
     <template title="csiXF_socNetIcons" version_id="1" version_string="1.0.0"><![CDATA[<xen:require css="csiXF_socNetIcons.css" />
 
 <div class="section">
-  <div class="secondaryContent statsList">
+  <div class="secondaryContent">
     <h3>{xen:phrase csiXF_socNetIcons_blockTitle}</h3>
-    <div class="pairsJustified">
-      <ul class="csiXF_socNetIcons">
-        <xen:if is="{$xenOptions.csiXF_socNetIcons_fb}">
-          <li class="fb">
-            <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_fb}" href="{$xenOptions.csiXF_socNetIcons_fb}" target="_blank">
-              <i class="fa fa-facebook {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
-            </a>
-          </li>
-        </xen:if>
-        <xen:if is="{$xenOptions.csiXF_socNetIcons_github}">
-          <li class="github">
-            <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_github}" href="{$xenOptions.csiXF_socNetIcons_github}" target="_blank">
-              <i class="fa fa-github-alt {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
-            </a>
-          </li>
-        </xen:if>
-        <xen:if is="{$xenOptions.csiXF_socNetIcons_gplus}">
-          <li class="gplus">
-            <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_gplus}" href="{$xenOptions.csiXF_socNetIcons_gplus}" target="_blank">
-              <i class="fa fa-google-plus {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
-            </a>
-          </li>
-        </xen:if>
-        <xen:if is="{$xenOptions.csiXF_socNetIcons_tw}">
-          <li class="tw">
-            <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_tw}" href="{$xenOptions.csiXF_socNetIcons_tw}" target="_blank">
-              <i class="fa fa-twitter {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
-            </a>
-          </li>
-        </xen:if>
-        <xen:if is="{$xenOptions.csiXF_socNetIcons_vk}">
-          <li class="vk">
-            <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_vk}" href="{$xenOptions.csiXF_socNetIcons_vk}" target="_blank">
-              <i class="fa fa-vk {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
-            </a>
-          </li>
-        </xen:if>
-        <xen:if is="{$xenOptions.csiXF_socNetIcons_youtube}">
-          <li class="youtube">
-            <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_youtube}" href="{$xenOptions.csiXF_socNetIcons_youtube}" target="_blank">
-              <i class="fa fa-youtube {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
-            </a>
-          </li>
-        </xen:if>
-      </ul>
-    </div>
+    <ul class="csiXF_socNetIcons">
+      <xen:if is="{$xenOptions.csiXF_socNetIcons_fb}">
+        <li class="fb">
+          <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_fb}" href="{$xenOptions.csiXF_socNetIcons_fb}" target="_blank">
+            <i class="fa fa-facebook {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
+          </a>
+        </li>
+      </xen:if>
+      <xen:if is="{$xenOptions.csiXF_socNetIcons_github}">
+        <li class="github">
+          <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_github}" href="{$xenOptions.csiXF_socNetIcons_github}" target="_blank">
+            <i class="fa fa-github-alt {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
+          </a>
+        </li>
+      </xen:if>
+      <xen:if is="{$xenOptions.csiXF_socNetIcons_gplus}">
+        <li class="gplus">
+          <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_gplus}" href="{$xenOptions.csiXF_socNetIcons_gplus}" target="_blank">
+            <i class="fa fa-google-plus {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
+          </a>
+        </li>
+      </xen:if>
+      <xen:if is="{$xenOptions.csiXF_socNetIcons_tw}">
+        <li class="tw">
+          <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_tw}" href="{$xenOptions.csiXF_socNetIcons_tw}" target="_blank">
+            <i class="fa fa-twitter {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
+          </a>
+        </li>
+      </xen:if>
+      <xen:if is="{$xenOptions.csiXF_socNetIcons_vk}">
+        <li class="vk">
+          <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_vk}" href="{$xenOptions.csiXF_socNetIcons_vk}" target="_blank">
+            <i class="fa fa-vk {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
+          </a>
+        </li>
+      </xen:if>
+      <xen:if is="{$xenOptions.csiXF_socNetIcons_youtube}">
+        <li class="youtube">
+          <a class="Tooltip" title="{xen:phrase csiXF_socNetIcons_youtube}" href="{$xenOptions.csiXF_socNetIcons_youtube}" target="_blank">
+            <i class="fa fa-youtube {$xenOptions.csiXF_socNetIcons_iconSize} fa-fw"></i>
+          </a>
+        </li>
+      </xen:if>
+    </ul>
   </div>
 </div>]]></template>
     <template title="csiXF_socNetIcons.css" version_id="1" version_string="1.0.0"><![CDATA[.csiXF_socNetIcons {
@@ -156,7 +154,7 @@ fa-5x={xen:phrase csiXF_socNetIcons_iconSize_fa5x}</edit_format_params>
 
 .csiXF_socNetIcons li {
   float: left;
-  margin: 0 5px 10px;
+  margin: 0 10px 10px 0;
 }
 
 .csiXF_socNetIcons li.fb a {
@@ -186,8 +184,12 @@ fa-5x={xen:phrase csiXF_socNetIcons_iconSize_fa5x}</edit_format_params>
 .csiXF_socNetIcons li a {
   display: block;
   padding: 5px;
-  color: #fff;
   border-radius: 4px;
+}
+
+.csiXF_socNetIcons li a,
+.csiXF_socNetIcons li a:hover {
+  color: #fff;
 }]]></template>
   </templates>
   <public_template_modifications>
