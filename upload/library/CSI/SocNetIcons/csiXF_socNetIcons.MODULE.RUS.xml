@@ -191,7 +191,7 @@ fa-5x={xen:phrase csiXF_socNetIcons_iconSize_fa5x}</edit_format_params>
 }]]></template>
   </templates>
   <public_template_modifications>
-    <modification template="PAGE_CONTAINER" modification_key="csiXF_socNetIcons" description="" execution_order="10" enabled="1" action="str_replace">
+    <modification template="PAGE_CONTAINER" modification_key="csiXF_socNetIcons" description="Добавление шаблона &quot;csiXF_socNetIcons&quot;" execution_order="99999999" enabled="1" action="str_replace">
       <find><![CDATA[<xen:include template="ad_sidebar_bottom" />]]></find>
       <replace><![CDATA[<xen:include template="csiXF_socNetIcons" />
 $0]]></replace>
