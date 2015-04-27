@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright © 2015 CYBERSPACE Industries
+  Contacts: http://cyberspace.industries/
+  License: LICENSE.ENG.txt / LICENSE.RUS.txt
+-->
 <addon addon_id="csiXF_socNetIcons" title="(CSI/XF/MODULE) Иконки социальных сетей" version_string="1.0.0" version_id="1" url="http://cyberspace.industries/" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
   <admin_navigation/>
   <admin_permissions/>
@@ -12,16 +17,6 @@
   <email_template_modifications/>
   <optiongroups>
     <group group_id="csiXF_socNetIcons" display_order="99999999" debug_only="0"/>
-    <option option_id="csiXF_socNetIcons_iconSize" edit_format="select" data_type="string" can_backup="1">
-      <default_value>fa-3x</default_value>
-      <edit_format_params>fa-lg={xen:phrase csiXF_socNetIcons_iconSize_falg}
-fa-2x={xen:phrase csiXF_socNetIcons_iconSize_fa2x}
-fa-3x={xen:phrase csiXF_socNetIcons_iconSize_fa3x}
-fa-4x={xen:phrase csiXF_socNetIcons_iconSize_fa4x}
-fa-5x={xen:phrase csiXF_socNetIcons_iconSize_fa5x}</edit_format_params>
-      <sub_options></sub_options>
-      <relation group_id="csiXF_socNetIcons" display_order="100"/>
-    </option>
     <option option_id="csiXF_socNetIcons_iconUrl_fb" edit_format="textbox" data_type="string" can_backup="1">
       <default_value></default_value>
       <edit_format_params></edit_format_params>
@@ -64,6 +59,16 @@ fa-5x={xen:phrase csiXF_socNetIcons_iconSize_fa5x}</edit_format_params>
       <sub_options></sub_options>
       <relation group_id="csiXF_socNetIcons" display_order="7"/>
     </option>
+    <option option_id="csiXF_socNetIcons_iconSize" edit_format="select" data_type="string" can_backup="1">
+      <default_value>fa-3x</default_value>
+      <edit_format_params>fa-lg={xen:phrase csiXF_socNetIcons_iconSize_falg}
+fa-2x={xen:phrase csiXF_socNetIcons_iconSize_fa2x}
+fa-3x={xen:phrase csiXF_socNetIcons_iconSize_fa3x}
+fa-4x={xen:phrase csiXF_socNetIcons_iconSize_fa4x}
+fa-5x={xen:phrase csiXF_socNetIcons_iconSize_fa5x}</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="csiXF_socNetIcons" display_order="100"/>
+    </option>
   </optiongroups>
   <permissions>
     <permission_groups/>
@@ -84,8 +89,6 @@ fa-5x={xen:phrase csiXF_socNetIcons_iconSize_fa5x}</edit_format_params>
     <phrase title="csiXF_socNetIcons_titleIcon_vimeo" version_id="1" version_string="1.0.0"><![CDATA[Vimeo]]></phrase>
     <phrase title="csiXF_socNetIcons_titleIcon_vk" version_id="1" version_string="1.0.0"><![CDATA[ВКонтакте]]></phrase>
     <phrase title="csiXF_socNetIcons_titleIcon_youtube" version_id="1" version_string="1.0.0"><![CDATA[YouTube]]></phrase>
-    <phrase title="option_csiXF_socNetIcons_iconSize" version_id="1" version_string="1.0.0"><![CDATA[Размер иконок]]></phrase>
-    <phrase title="option_csiXF_socNetIcons_iconSize_explain" version_id="1" version_string="1.0.0"><![CDATA[Укажите размер иконок. Размер иконок можно посмотреть на сайте шрифта <a href="http://fortawesome.github.io/Font-Awesome/examples/#larger">Font Awesome</a>.]]></phrase>
     <phrase title="option_csiXF_socNetIcons_iconUrl_fb" version_id="1" version_string="1.0.0"><![CDATA[Facebook]]></phrase>
     <phrase title="option_csiXF_socNetIcons_iconUrl_fb_explain" version_id="1" version_string="1.0.0"><![CDATA[Укажите URL страницы Facebook.]]></phrase>
     <phrase title="option_csiXF_socNetIcons_iconUrl_github" version_id="1" version_string="1.0.0"><![CDATA[GitHub]]></phrase>
@@ -100,6 +103,8 @@ fa-5x={xen:phrase csiXF_socNetIcons_iconSize_fa5x}</edit_format_params>
     <phrase title="option_csiXF_socNetIcons_iconUrl_vk_explain" version_id="1" version_string="1.0.0"><![CDATA[Укажите URL страницы VK.]]></phrase>
     <phrase title="option_csiXF_socNetIcons_iconUrl_youtube" version_id="1" version_string="1.0.0"><![CDATA[YouTube]]></phrase>
     <phrase title="option_csiXF_socNetIcons_iconUrl_youtube_explain" version_id="1" version_string="1.0.0"><![CDATA[Укажите URL страницы YouTube.]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_iconSize" version_id="1" version_string="1.0.0"><![CDATA[Размер иконок]]></phrase>
+    <phrase title="option_csiXF_socNetIcons_iconSize_explain" version_id="1" version_string="1.0.0"><![CDATA[Укажите размер иконок. Размер иконок можно посмотреть на сайте шрифта <a href="http://fortawesome.github.io/Font-Awesome/examples/#larger">Font Awesome</a>.]]></phrase>
     <phrase title="option_group_csiXF_socNetIcons" version_id="1" version_string="1.0.0"><![CDATA[(CSI/XF/MODULE) Иконки социальных сетей]]></phrase>
     <phrase title="option_group_csiXF_socNetIcons_description" version_id="1" version_string="1.0.0"><![CDATA[Настройки иконок социальных сетей.]]></phrase>
   </phrases>
